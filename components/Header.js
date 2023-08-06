@@ -8,7 +8,7 @@ function Header() {
     setIsActive((prevState) => !prevState);
   };
   return (
-    <header className="bg-transparent backdrop-blur-md shadow-md fixed top-0 left-0 w-full flex items-center z-10">
+    <header className="bg-slate-100 opacity-90 backdrop-blur-lg shadow-md fixed top-0 left-0 w-full flex items-center z-10">
       <div className="container">
         <div className="flex items-center justify-between relative px-4 lg:px-0">
           <div className="flex items-center">
@@ -79,7 +79,7 @@ function Header() {
                 </li>
                 <li className="group">
                   <a
-                    href="#company"
+                    href="#experience"
                     className="text-lg font-medium text-dark py-2 mx-8 flex group-hover:text-primary"
                   >
                     Pengalaman
