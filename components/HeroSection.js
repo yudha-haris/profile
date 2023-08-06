@@ -26,10 +26,10 @@ function HeroSection() {
               className="text-base font-semibold text-white bg-primary py-3 px-8 rounded-full 
             hover:shadow-lg hover:opacity-80 transition duration-300 ease-in-out"
             >
-              Contact Me
+              Mari Terhubung!
             </a>
           </div>
-          <div className="w-full self-end px-4 lg:w-1/2">
+          <div className="w-full self-end px-4 lg:w-1/2 hidden lg:block">
             <div className="relative mt-10 lg:mt-9 lg:right-0">
               <Image
                 src="/profil-modified.png"
