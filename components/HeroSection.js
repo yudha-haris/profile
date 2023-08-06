@@ -13,7 +13,7 @@ function HeroSection() {
               </span>
             </h1>
             <h2 className="font-medium text-slate-500 text-lg mb-5 mt-2 lg:text-2xl">
-              Frontend Developer
+              Software Engineer
             </h2>
             <p className="font-medium text-slate-400 mb-10 leading-relaxed">
               Seorang dengan antusiasme dan minat dalam bidang pengembangan
