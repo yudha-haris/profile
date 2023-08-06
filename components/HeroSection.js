@@ -2,7 +2,7 @@ import Image from "next/image";
 
 function HeroSection() {
   return (
-    <section id="home" className="pt-36">
+    <section id="home" className="pt-36 pb-24">
       <div className="container">
         <div className="flex flex-wrap">
           <div className="w-full self-center px-4 lg:w-1/2">
