@@ -2,8 +2,8 @@ export default function FooterSection() {
   return (
     <section id="footer">
       <div className="bg-slate-950 flex items-center">
-        <p className="text-white my-4 mx-auto">
-          Dibuat oleh Yudha Haris Purnama dengan{" "}
+        <p className="text-white my-4 mx-auto px-8">
+          Dibuat oleh yudha-haris dengan{" "}
           <a
             href="https://nextjs.org/"
             className="font-semibold text-slate-300"
