@@ -1,6 +1,12 @@
 import Image from "next/image";
 
-export default function PortfolioProjectItem({ imgUrl, title, desc, url }) {
+export default function PortfolioProjectItem({
+  imgUrl,
+  title,
+  desc,
+  url,
+  badges,
+}) {
   return (
     <div className="mb-12 p-4 md:w-1/2">
       <div className="rounded-md shadow-md overflow-hidden hover:shadow-lg hover:scale-105 transition">
@@ -21,6 +27,7 @@ export default function PortfolioProjectItem({ imgUrl, title, desc, url }) {
         </a>
       </div>
       {desc}
+      <div className="flex mt-4">{badges}</div>
     </div>
   );
 }
