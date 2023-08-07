@@ -27,7 +27,7 @@ function PortfolioSection() {
             desc="Repository yang disiapkan sebagai template pembuatan proyek
               aplikasi Flutter. Pada boilerplate ini sudah disiapkan arsitektur
               dan berbagai package umum yang dibutuhkan."
-            url="#home"
+            url="https://github.com/yudha-haris/flutter-boilerplate"
           />
           <PortfolioProjectItem
             imgUrl="/react-forum.png"
