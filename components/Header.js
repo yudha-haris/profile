@@ -64,7 +64,7 @@ function Header() {
                 <li className="group">
                   <a
                     href="#home"
-                    className="text-lg font-medium text-dark py-4 px-8 flex md:group-hover:text-purple md:hover:bg-transparent hover:text-white hover:bg-primary"
+                    className="text-lg font-medium text-dark py-4 px-8 flex md:group-hover:text-primary md:hover:bg-transparent hover:text-white hover:bg-primary"
                   >
                     Tentang Saya
                   </a>
