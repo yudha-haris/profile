@@ -11,7 +11,7 @@ function Header() {
     <header className="bg-slate-100 opacity-95 md:opacity-90 backdrop-blur-lg shadow-md fixed top-0 left-0 w-full flex items-center z-10">
       <div className="container px-0">
         <div className="flex items-center justify-between relative px-4 lg:px-0">
-          <div className="flex items-center">
+          <div className="flex items-center px-4">
             <Image
               src="/profil-modified.png"
               width={32}
