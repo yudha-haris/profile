@@ -8,8 +8,8 @@ function Header() {
     setIsActive((prevState) => !prevState);
   };
   return (
-    <header className="bg-slate-100 opacity-90 backdrop-blur-lg shadow-md fixed top-0 left-0 w-full flex items-center z-10">
-      <div className="container">
+    <header className="bg-slate-100 opacity-95 md:opacity-90 backdrop-blur-lg shadow-md fixed top-0 left-0 w-full flex items-center z-10">
+      <div className="container px-0">
         <div className="flex items-center justify-between relative px-4 lg:px-0">
           <div className="flex items-center">
             <Image
@@ -57,7 +57,7 @@ function Header() {
               id="nav-menu"
               className={`${
                 isActive ? "" : "hidden"
-              } absolute py-5 bg-white shadow-lg rounded-lg w-full right-0 top-full 
+              } absolute py-5 bg-white shadow-lg rounded-b-lg w-full right-0 top-full 
                 md:block md:static md:bg-transparent md:max-w-full md:shadow-none md:rounded-none`}
             >
               <ul className="block md:flex">
