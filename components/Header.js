@@ -57,14 +57,14 @@ function Header() {
               id="nav-menu"
               className={`${
                 isActive ? "" : "hidden"
-              } absolute py-5 bg-white shadow-lg rounded-b-lg w-full right-0 top-full 
+              } absolute bg-white shadow-lg rounded-b-xl w-full right-0 top-full
                 md:block md:static md:bg-transparent md:max-w-full md:shadow-none md:rounded-none`}
             >
               <ul className="block md:flex">
                 <li className="group">
                   <a
                     href="#home"
-                    className="text-lg font-medium text-dark py-2 mx-8 flex group-hover:text-primary"
+                    className="text-lg font-medium text-dark py-4 px-8 flex md:group-hover:text-purple md:hover:bg-transparent hover:text-white hover:bg-primary"
                   >
                     Tentang Saya
                   </a>
@@ -72,7 +72,7 @@ function Header() {
                 <li className="group">
                   <a
                     href="#portfolio"
-                    className="text-lg font-medium text-dark py-2 mx-8 flex group-hover:text-primary"
+                    className="text-lg font-medium text-dark py-4 px-8 flex md:group-hover:text-primary md:hover:bg-transparent hover:text-white hover:bg-primary"
                   >
                     Portfolio
                   </a>
@@ -80,7 +80,7 @@ function Header() {
                 <li className="group">
                   <a
                     href="#experience"
-                    className="text-lg font-medium text-dark py-2 mx-8 flex group-hover:text-primary"
+                    className="text-lg font-medium text-dark py-4 px-8 flex md:group-hover:text-primary md:hover:bg-transparent hover:text-white hover:bg-primary rounded-b-xl"
                   >
                     Pengalaman
                   </a>
