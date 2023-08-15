@@ -9,7 +9,7 @@ function Header() {
   };
   return (
     <header className="bg-slate-100 opacity-95 md:opacity-90 backdrop-blur-lg shadow-md fixed top-0 left-0 w-full flex items-center z-10">
-      <div className="w-full mx-auto sm:max-w-screen-sm md:max-w-screen-md lg:max-w-screen-lg xl:max-w-screen-xl 2xl:max-w-screen-2xl">
+      <div className="w-full mx-auto md:max-w-screen-md lg:max-w-screen-lg xl:max-w-screen-xl 2xl:max-w-screen-2xl">
         <div className="flex items-center justify-between relative px-4 lg:px-0">
           <div className="flex items-center px-4">
             <Image
@@ -57,7 +57,7 @@ function Header() {
               id="nav-menu"
               className={`${
                 isActive ? "" : "hidden"
-              } absolute bg-white shadow-lg rounded-b-xl w-full right-0 top-full
+              } absolute bg-white shadow-lg rounded-b-lg w-full right-0 top-full
                 md:block md:static md:bg-transparent md:max-w-full md:shadow-none md:rounded-none`}
             >
               <ul className="block md:flex">
