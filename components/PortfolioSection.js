@@ -2,12 +2,17 @@ import PortfolioProjectItem from "./PortfolioProjectItem";
 
 function PortfolioSection() {
   return (
-    <section id="portfolio" className="pt-16 pb-16 md:pt-24 bg-slate-100">
+    <section
+      id="portfolio"
+      className="pt-16 pb-16 md:pt-24 bg-slate-100 dark:bg-slate-900"
+    >
       <div className="container">
         <div className="w-full px-4">
           <div className="max-w-full mx-auto text-center mb-16">
-            <h2 className="font-bold text-dark text-4xl mb-4">Portfolio</h2>
-            <h4 className="font-normal text-lg text-slate-500">
+            <h2 className="font-bold text-dark text-4xl mb-4 dark:text-white">
+              Portfolio
+            </h2>
+            <h4 className="font-normal text-lg text-slate-500 dark:text-blue-200">
               Sorotan proyek non-profit yang saya kerjakan sebagai latihan,
               tugas kursus, dan keperluan lainnya
             </h4>

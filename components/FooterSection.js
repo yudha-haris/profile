@@ -1,7 +1,7 @@
 export default function FooterSection() {
   return (
     <section id="footer">
-      <div className="bg-slate-950 flex items-center">
+      <div className="bg-black flex items-center">
         <p className="text-white my-4 mx-auto px-8">
           Dibuat oleh yudha-haris dengan{" "}
           <a

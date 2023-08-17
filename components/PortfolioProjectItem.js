@@ -21,7 +21,7 @@ export default function PortfolioProjectItem({
       <div className="mt-5 mb-3">
         <a
           href={url}
-          className="font-semibold text-dark text-xl mt-5 mb-3 hover:text-primary"
+          className="font-semibold text-dark text-xl mt-5 mb-3 hover:text-primary dark:text-cyan-100"
         >
           {title}
         </a>

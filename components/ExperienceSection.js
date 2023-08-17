@@ -1,9 +1,8 @@
-import Image from "next/image";
 import ExperienceItem from "./ExperienceItem";
 
 export default function ExperienceSection() {
   return (
-    <section id="experience" className="pt-24 pb-16 bg-slate-800">
+    <section id="experience" className="pt-24 pb-16 bg-slate-950">
       <div className="container">
         <div className="w-full px-4">
           <div className="max-w-full mx-auto text-center mb-16">

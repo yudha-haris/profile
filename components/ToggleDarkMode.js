@@ -1,17 +1,34 @@
-import React, { useState } from "react";
+import { useTheme } from "next-themes";
+import React, { useEffect, useState } from "react";
 import { MdDarkMode, MdLightMode } from "react-icons/md";
 
-export default function ToggleDarkMode() {
+export default function ToggleDarkMode({ className }) {
+  const { theme, setTheme } = useTheme();
+
   const [isDarkMode, setIsDarkMode] = useState(true);
 
+  useEffect(() => {
+    if (theme === "dark") {
+      setIsDarkMode(true);
+    } else {
+      setIsDarkMode(false);
+    }
+  }, [theme]);
+
   const handleToggle = () => {
-    setIsDarkMode((prevState) => !prevState);
+    if (theme === "dark") {
+      setIsDarkMode(false);
+      setTheme("light");
+    } else {
+      setIsDarkMode(true);
+      setTheme("dark");
+    }
   };
 
   return (
     <button
       onClick={handleToggle}
-      className={`flex ${
+      className={`${className} ${
         isDarkMode ? "bg-blue-950" : "bg-blue-400"
       }  rounded-2xl py-1 px-1 mx-6 my-4 lg:my-0 lg:mx-0 transition ease-in-out duration-300`}
     >
