@@ -8,10 +8,10 @@ export default function ToggleDarkMode({ className }) {
   const [isDarkMode, setIsDarkMode] = useState(true);
 
   useEffect(() => {
-    if (theme === "dark") {
-      setIsDarkMode(true);
-    } else {
+    if (theme === "light") {
       setIsDarkMode(false);
+    } else {
+      setIsDarkMode(true);
     }
   }, [theme]);
 
