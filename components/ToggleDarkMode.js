@@ -16,12 +16,12 @@ export default function ToggleDarkMode({ className }) {
   }, [theme]);
 
   const handleToggle = () => {
-    if (theme === "dark") {
-      setIsDarkMode(false);
-      setTheme("light");
-    } else {
+    if (theme === "light") {
       setIsDarkMode(true);
       setTheme("dark");
+    } else {
+      setIsDarkMode(false);
+      setTheme("light");
     }
   };
 
