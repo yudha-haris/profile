@@ -13,13 +13,12 @@ function HeroSection() {
               </span>
             </h1>
             <h2 className="font-medium text-slate-500 text-lg mb-5 mt-2 lg:text-2xl dark:text-slate-200">
-              Front-End Developer
+              Tukang Ngoding
             </h2>
             <p className="font-medium text-slate-400 mb-10 leading-relaxed dark:text-blue-300">
-              Seorang dengan antusiasme dan minat dalam bidang pengembangan
-              aplikasi berbasis{" "}
+              Suka belajar ngoding tentang{" "}
               <span className="text-dark font-bold dark:text-cyan-300">
-                mobile dan web
+                apa aja
               </span>
             </p>
 

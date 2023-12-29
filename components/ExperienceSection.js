@@ -12,6 +12,13 @@ export default function ExperienceSection() {
             </h4>
             <div className="w-full mt-16 lg:flex lg:flex-wrap">
               <ExperienceItem
+                img="/nbs.jpg"
+                title="Flutter Developer Intern"
+                company="Nusantara Beta Studio"
+                companyUrl="https://www.linkedin.com/company/nusantara-beta-studio/"
+                date="Agustus 2023 - Desember 2023"
+              />
+              <ExperienceItem
                 img="/toko-dizital.jpeg"
                 title="Android Developer"
                 company="Toko Dizital"
