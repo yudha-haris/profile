@@ -10,10 +10,10 @@ function PortfolioSection() {
         <div className="w-full px-4">
           <div className="max-w-full mx-auto text-center mb-16">
             <h2 className="font-bold text-dark text-4xl mb-4 dark:text-white">
-              Portfolio
+              Projects
             </h2>
             <h4 className="font-normal text-lg text-slate-500 dark:text-blue-200">
-              Sorotan proyek yang saya kerjakan di waktu luang
+              Some projects that I proudly working on my spare time
             </h4>
           </div>
         </div>
@@ -21,8 +21,7 @@ function PortfolioSection() {
           <PortfolioProjectItem
             imgUrl="/github-thread.png"
             title="Github Thread"
-            desc="Aplikasi sederhana untuk menelusuri pengguna Github. Aplikasi ini
-              dibuat untuk latihan pengembangan aplikasi Android dengan Clean Architecture dan Security."
+            desc="Simple Android apps for (my) learning purpose. Using clean architecture, obfuscation, etc"
             url="https://github.com/yudha-haris/github-thread"
             badges={
               <>
@@ -63,12 +62,12 @@ function PortfolioSection() {
             }
           />
           <PortfolioProjectItem
-            imgUrl="/flutter-boilerplate.png"
-            title="Flutter Boilerplate"
-            desc="Repository yang disiapkan sebagai template pembuatan proyek
-              aplikasi Flutter. Pada boilerplate ini sudah disiapkan arsitektur
-              dan berbagai package umum yang dibutuhkan."
-            url="https://github.com/yudha-haris/flutter-boilerplate"
+            imgUrl="/flutter-template.png"
+            title="Flutter Template"
+            desc="Maintain open source flutter template repository. With this template, you can 
+            create Flutter project with minimal setup. Using clean architecture so actually you change
+            default package to your favorite package (GetX, Riverpod, Retrofit, etc)"
+            url="https://github.com/ristekoss/flutter-template"
             badges={
               <>
                 <div className="w-9 h-9 mr-2 rounded-full border border-slate-400 text-slate-400 hover:text-white hover:border-blue-400 hover:bg-blue-400 flex items-center justify-center">

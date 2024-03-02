@@ -73,7 +73,7 @@ function Header() {
                       href="#home"
                       className="text-lg font-medium text-dark dark:text-white py-4 px-8 flex lg:group-hover:text-primary lg:hover:bg-transparent hover:text-white hover:bg-primary"
                     >
-                      Tentang Saya
+                      About Me
                     </a>
                   </li>
                   <li className="group">
@@ -81,7 +81,7 @@ function Header() {
                       href="#portfolio"
                       className="text-lg font-medium text-dark dark:text-white py-4 px-8 flex lg:group-hover:text-primary lg:hover:bg-transparent hover:text-white hover:bg-primary"
                     >
-                      Portfolio
+                      Projects
                     </a>
                   </li>
                   <li className="group">
@@ -89,7 +89,7 @@ function Header() {
                       href="#experience"
                       className="text-lg font-medium text-dark dark:text-white py-4 px-8 flex lg:group-hover:text-primary lg:hover:bg-transparent hover:text-white hover:bg-primary rounded-b-xl"
                     >
-                      Pengalaman
+                      Experiences
                     </a>
                   </li>
                 </ul>
