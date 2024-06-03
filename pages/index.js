@@ -1,8 +1,8 @@
-import ExperienceSection from "../components/ExperienceSection";
-import FooterSection from "../components/FooterSection";
-import Header from "../components/Header";
-import HeroSection from "../components/HeroSection";
-import PortfolioSection from "../components/PortfolioSection";
+import ExperienceSection from "../components/Experience/ExperienceSection";
+import FooterSection from "../components/Footer/FooterSection";
+import Header from "../components/Header/Header";
+import HeroSection from "../components/Hero/HeroSection";
+import PortfolioSection from "../components/Portfolio/PortfolioSection";
 
 export default function Home() {
   return (
