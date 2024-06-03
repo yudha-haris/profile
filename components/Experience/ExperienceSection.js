@@ -6,9 +6,9 @@ export default function ExperienceSection() {
       <div className="container">
         <div className="w-full px-4">
           <div className="max-w-full mx-auto text-center mb-16">
-            <h2 className="font-bold text-white text-4xl mb-4">Experiences</h2>
+            <h2 className="font-bold text-white text-4xl mb-4">Working Experiences</h2>
             <h4 className="font-normal text-lg text-slate-300">
-              I have writing codes for these companies
+              I have write codes for these companies
             </h4>
             <div className="w-full mt-16 lg:flex lg:flex-wrap">
               <ExperienceItem

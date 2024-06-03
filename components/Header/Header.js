@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import Image from "next/image";
 import ToggleDarkMode from "./ToggleDarkMode";
+import MobileNavigation from "./MobileNavigation";
+import Navigation from "./Navigation";
 
 function Header() {
   const [isActive, setIsActive] = useState(false);
@@ -29,16 +31,18 @@ function Header() {
               </a>
             </div>
           </div>
+
           <div className="flex">
             <div>
-              <ToggleDarkMode className="lg:hidden flex" />
+              <ToggleDarkMode className="md:hidden flex" />
             </div>
+
             <div className="flex items-center px-4">
               <button
                 id="hamburger"
                 name="hamburger"
                 type="button"
-                className="block absolute right-4 lg:hidden"
+                className="block absolute right-4 md:hidden"
                 onClick={handleToggle}
               >
                 <span
@@ -57,43 +61,11 @@ function Header() {
                   } transition duration-300 ease-in-out dark:bg-white`}
                 />
               </button>
-              <nav
-                id="nav-menu"
-                className={`${
-                  isActive ? "" : "hidden"
-                } absolute bg-white shadow-lg rounded-b-lg w-full right-0 top-full dark:bg-slate-950
-                lg:block lg:static lg:bg-transparent lg:max-w-full lg:shadow-none lg:rounded-none`}
-              >
-                <ul className="block lg:flex items-center">
-                  <li className="group">
-                    <ToggleDarkMode className="hidden lg:flex" />
-                  </li>
-                  <li className="group">
-                    <a
-                      href="#home"
-                      className="text-lg font-medium text-dark dark:text-white py-4 px-8 flex lg:group-hover:text-primary lg:hover:bg-transparent hover:text-white hover:bg-primary"
-                    >
-                      About Me
-                    </a>
-                  </li>
-                  <li className="group">
-                    <a
-                      href="#portfolio"
-                      className="text-lg font-medium text-dark dark:text-white py-4 px-8 flex lg:group-hover:text-primary lg:hover:bg-transparent hover:text-white hover:bg-primary"
-                    >
-                      Projects
-                    </a>
-                  </li>
-                  <li className="group">
-                    <a
-                      href="#experience"
-                      className="text-lg font-medium text-dark dark:text-white py-4 px-8 flex lg:group-hover:text-primary lg:hover:bg-transparent hover:text-white hover:bg-primary rounded-b-xl"
-                    >
-                      Experiences
-                    </a>
-                  </li>
-                </ul>
-              </nav>
+
+              <div>
+                <MobileNavigation isActive={isActive} />
+                <Navigation />
+              </div>
             </div>
           </div>
         </div>

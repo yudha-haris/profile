@@ -9,10 +9,10 @@ function PortfolioSection() {
       <div className="container">
         <div className="w-full px-4">
           <div className="max-w-full mx-auto text-center mb-16">
-            <h2 className="font-bold text-dark text-4xl mb-4 dark:text-white">
+            <h2 className="font-bold text-dark text-4xl mb-4 dark:text-white hover:text-cyan-700 dark:hover:text-cyan-200 hover:cursor-default">
               Personal Projects
             </h2>
-            <h4 className="font-normal text-lg text-slate-500 dark:text-blue-200">
+            <h4 className="font-normal text-lg text-slate-500 dark:text-blue-200 hover:cursor-default">
               Some notable projects that I do on my spare time
             </h4>
           </div>
@@ -21,7 +21,7 @@ function PortfolioSection() {
           <PortfolioProjectItem
             imgUrl="/github-thread.png"
             title="Github Thread"
-            desc="Simple app for practicing best practices on Android native development. This project implemented clean architecture, obfuscation, reactive programming, etc"
+            desc="Simple app for practicing best practices on Android native development. This project implemented clean architecture, obfuscation, reactive programming, etc."
             url="https://github.com/yudha-haris/github-thread"
             badges={
               <>
