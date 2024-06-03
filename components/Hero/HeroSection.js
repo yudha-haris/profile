@@ -16,8 +16,7 @@ function HeroSection() {
               Frontend Developer
             </h2>
             <p className="font-medium text-slate-400 mb-10 leading-relaxed dark:text-blue-300">
-              I'm happily help you to convert your product design into fully
-              functional and beautiful{" "}
+              {"I'm happily help you to convert your product design into fully functional and beautiful "}
               <span className="text-dark hover:text-gray-700 font-bold dark:text-cyan-300 dark:hover:text-cyan-200">
                 mobile app and website!
               </span>
