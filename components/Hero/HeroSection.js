@@ -9,7 +9,7 @@ function HeroSection() {
             <h1 className="text-base font-semibold text-primary md:text-xl lg:text-2xl dark:text-cyan-200">
               Hello!
               <span className="block font-bold text-dark text-4xl mt-1 xl:text-5xl dark:text-white dark:hover:text-cyan-100 hover:text-cyan-700">
-                I'm Yudha Haris
+                {"I'm Yudha Haris"}
               </span>
             </h1>
             <h2 className="font-medium text-slate-500 text-lg mb-8 mt-2 lg:text-2xl dark:text-slate-200">
