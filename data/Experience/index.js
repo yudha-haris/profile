@@ -30,21 +30,6 @@ const experiences = [
     ],
   },
   {
-    img: "/toko-dizital.jpeg",
-    company: "Toko Dizital",
-    companyUrl: "https://www.linkedin.com/company/toko-dizital/",
-    description: [
-      {
-        position: "Android Developer",
-        date: "May 2023 - Jun 2023",
-        desc: [
-          "Best 9 Company-based Capstone Projects out of 29 projects",
-          "Implemented features with XML and Jetpack Compose for scanning plant diseases by integrating machine learning algorithms through API.",
-        ],
-      },
-    ],
-  },
-  {
     img: "/sirka.jpeg",
     company: "Sirka",
     companyUrl: "https://www.linkedin.com/company/sirkaio/",
