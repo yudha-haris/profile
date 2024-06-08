@@ -1,4 +1,5 @@
 import Image from "next/image";
+import IconMapper from "../Icons/mapper";
 
 export default function PortfolioProjectItem({
   imgUrl,
@@ -6,6 +7,7 @@ export default function PortfolioProjectItem({
   desc,
   url,
   badges,
+  tags,
 }) {
   return (
     <div className="mb-12 p-4 md:w-1/2">
@@ -27,7 +29,15 @@ export default function PortfolioProjectItem({
         </a>
       </div>
       <p className="text-white">{desc}</p>
-      <div className="flex mt-4">{badges}</div>
+      <div className="flex">
+        {tags.map((item) => {
+          return (
+            <div key={item} className="flex mt-4">
+              {IconMapper(item)}
+            </div>
+          );
+        })}
+      </div>
     </div>
   );
 }
