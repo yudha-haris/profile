@@ -2,10 +2,9 @@ import Image from "next/image";
 
 export default function ExperienceItem({
   img,
-  title,
   company,
-  date,
   companyUrl,
+  description,
 }) {
   return (
     <div className="flex items-start mt-12 lg:w-1/2">
@@ -17,17 +16,28 @@ export default function ExperienceItem({
         className="mt-2 rounded-md hover:scale-110 hover:brightness-100 bg-white w-[64px] h-[64px] object-cover brightness-90"
       />
       <div className="text-left mx-4">
-        <p className="text-slate-100 font-semibold text-2xl">{title}</p>
-        <div className="mt-1">
-          <a
-            href={companyUrl}
-            className="text-slate-200 text-xl hover:text-slate-400"
-          >
-            {company}
-          </a>
-        </div>
+        <a
+          href={companyUrl}
+          className="text-slate-100 font-semibold text-lg hover:text-slate-400"
+        >
+          {company}
+        </a>
+        {description.map((item) => {
+          return (
+            <div key={item.position}>
+              <div className="mt-1">
+                <p className="text-slate-200 font-semibold">
+                  {item.position}
+                </p>
+              </div>
 
-        <p className="text-slate-300 text-lg mt-1">{date}</p>
+              <p className="text-slate-300 text-sm">{item.date}</p>
+              {item.desc.map((desc, index) => {
+                return <p key={index} className="text-white text-sm mt-2">• {desc}</p>;
+              })}
+            </div>
+          );
+        })}
       </div>
     </div>
   );
