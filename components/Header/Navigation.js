@@ -3,7 +3,7 @@ import ToggleDarkMode from "./ToggleDarkMode";
 export default function Navigation() {
   return (
     <nav
-      className={`hidden bg-white right-0 top-full dark:bg-slate-950
+      className={`hidden right-0 top-full dark:bg-slate-950
       md:block static bg-transparent max-w-full `}
     >
       <ul className="flex items-center">
