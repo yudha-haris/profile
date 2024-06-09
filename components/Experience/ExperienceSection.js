@@ -1,12 +1,25 @@
+import { useRef } from "react";
 import experiences from "../../data/Experience";
 import ExperienceItem from "./ExperienceItem";
+import { useIsVisible } from "../../hooks/useVisible";
 
 export default function ExperienceSection() {
+  const ref = useRef();
+  const isVisible = useIsVisible(ref);
+
   return (
-    <section id="experience" className="pt-24 pb-16 bg-slate-100 dark:bg-slate-900">
+    <section
+      id="experience"
+      className="pt-24 pb-16 bg-slate-100 dark:bg-slate-900"
+    >
       <div className="container">
         <div className="w-full px-4">
-          <div className="max-w-full mx-auto text-center mb-16">
+          <div
+            ref={ref}
+            className={`max-w-full mx-auto text-center mb-16 transition-all ease-in duration-700 ${
+              isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-20"
+            } `}
+          >
             <h2 className="font-bold text-cyan-900 dark:text-white text-4xl mb-4">
               Working Experiences
             </h2>

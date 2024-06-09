@@ -22,11 +22,11 @@ export default function ExperienceItem({
         >
           {company}
         </a>
-        {description.map((item) => {
+        {description.map((item, index) => {
           return (
-            <div key={item.position}>
+            <div>
               <div className="mt-1">
-                <p className="text-slate-900 dark:text-slate-200 font-semibold">
+                <p key={index} className="text-slate-900 dark:text-slate-200 font-semibold">
                   {item.position}
                 </p>
               </div>

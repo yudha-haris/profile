@@ -1,17 +1,20 @@
+import { useRef } from "react";
 import projects from "../../data/Projects";
-import {
-  AndroidIcon,
-  DartIcon,
-  FlutterIcon,
-  JetpackComposeIcon,
-  KotlinIcon,
-} from "../Icons";
 import PortfolioProjectItem from "./PortfolioProjectItem";
+import { useIsVisible } from "../../hooks/useVisible";
 
 function PortfolioSection() {
+  const ref = useRef();
+  const isVisible = useIsVisible(ref);
+
   return (
     <section id="portfolio" className="pt-16 pb-16 md:pt-24 bg-slate-950">
-      <div className="container">
+      <div
+        ref={ref}
+        className={`container transition-all ease-in duration-700 ${
+          isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-20"
+        } `}
+      >
         <div className="w-full px-4">
           <div className="max-w-full mx-auto text-center mb-16">
             <h2 className="font-bold text-4xl mb-4 text-white hover:text-cyan-200 hover:cursor-default">
