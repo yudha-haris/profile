@@ -17,7 +17,7 @@ export default function PortfolioProjectItem({
           width={600}
           height={300}
           alt="bangkit"
-          className="w-full object-cover lg:h-[300px] md:h-[200px]"
+          className="w-full min-h-full object-cover lg:h-[300px] md:h-[200px]"
         />
       </div>
       <div className="mt-5 mb-3">

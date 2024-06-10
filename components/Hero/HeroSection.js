@@ -24,13 +24,13 @@ function HeroSection() {
               </span>
             </p>
 
-            <a
+            <button
               href="https://www.linkedin.com/in/yudha-haris/"
               className="text-base font-semibold text-white bg-primary py-3 px-8 rounded-md 
-            hover:shadow-lg hover:opacity-80 transition duration-300 ease-in-out"
+            hover:shadow-lg hover:opacity-80 hover:scale-110 transition duration-300 ease-in-out"
             >
               {"Let's connect!"}
-            </a>
+            </button>
           </div>
           <div className="w-full self-end px-4 lg:w-1/2 hidden lg:block">
             <div className="relative mt-10 lg:mt-9 lg:right-0">

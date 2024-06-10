@@ -28,7 +28,17 @@ const projects = [
         "tags": [
             "apple"
         ],
-    }
+    },
+    {
+        "title": "UlasKelas",
+        "description": "Develop and maintain open source Universitas Indonesia course-review app as a member of Ristek Fasilkom UI",
+        "image": "/projects/ulas-kelas.png",
+        "url": "https://github.com/ristekoss/ulaskelas-frontend",
+        "tags": [
+            "flutter",
+            "dart"
+        ],
+    },
 ]
 
 export default projects
