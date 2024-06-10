@@ -20,18 +20,18 @@ export default function Navigation() {
         </li>
         <li className="group">
           <a
-            href="#portfolio"
-            className="text-lg font-medium text-dark dark:text-white py-4 px-8 flex group-hover:text-primary hover:bg-transparent "
-          >
-            Projects
-          </a>
-        </li>
-        <li className="group">
-          <a
             href="#experience"
             className="text-lg font-medium text-dark dark:text-white py-4 px-8 flex group-hover:text-primary hover:bg-transparent"
           >
             Experiences
+          </a>
+        </li>
+        <li className="group">
+          <a
+            href="#portfolio"
+            className="text-lg font-medium text-dark dark:text-white py-4 px-8 flex group-hover:text-primary hover:bg-transparent "
+          >
+            Projects
           </a>
         </li>
       </ul>
