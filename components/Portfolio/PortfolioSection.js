@@ -18,10 +18,10 @@ function PortfolioSection() {
         <div className="w-full px-4">
           <div className="max-w-full mx-auto text-center mb-16">
             <h2 className="font-bold text-4xl mb-4 text-white hover:text-cyan-200 hover:cursor-default">
-              Personal Projects
+              Projects
             </h2>
             <h4 className="font-normal text-lg text-blue-200 hover:cursor-default">
-              Some notable projects that I do on my spare time
+              Some notable projects that I have been working on
             </h4>
           </div>
         </div>

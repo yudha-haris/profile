@@ -1,4 +1,4 @@
-import { AndroidIcon, DartIcon, FlutterIcon, JetpackComposeIcon, KotlinIcon } from ".";
+import { AndroidIcon, AppleIcon, DartIcon, FlutterIcon, JetpackComposeIcon, KotlinIcon } from ".";
 
 const IconMapper = (tag) => {
     switch (tag) {
@@ -12,6 +12,8 @@ const IconMapper = (tag) => {
             return <FlutterIcon />
         case "dart":
             return <DartIcon />
+        case "apple":
+            return <AppleIcon />    
         default:
             return <AndroidIcon />        
     }
