@@ -10,7 +10,7 @@ export default function FooterSection() {
           >
             Simple Icons
           </a>
-          and
+          {" "}and{" "}
           <a
             href="https://lucide.dev"
             className="font-semibold text-slate-300"
