@@ -10,6 +10,13 @@ export default function FooterSection() {
           >
             Simple Icons
           </a>
+          and
+          <a
+            href="https://lucide.dev"
+            className="font-semibold text-slate-300"
+          >
+            Lucide
+          </a>
           {" | "}
           Inspired by{" "}
           <a

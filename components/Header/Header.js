@@ -10,6 +10,7 @@ function Header() {
   const handleToggle = () => {
     setIsActive((prevState) => !prevState);
   };
+  
   return (
     <header className="bg-slate-100 opacity-95 lg:opacity-90 backdrop-blur-lg shadow-md fixed top-0 left-0 w-full flex items-center z-10 dark:bg-slate-950">
       <div className="w-full mx-auto lg:max-w-screen-lg xl:max-w-screen-xl 2xl:max-w-screen-2xl">
