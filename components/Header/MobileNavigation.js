@@ -1,4 +1,4 @@
-const MobileNavigation = ({isActive}) => {
+const MobileNavigation = ({ isActive }) => {
   return (
     <nav
       className={`md:hidden ${
@@ -16,18 +16,18 @@ const MobileNavigation = ({isActive}) => {
         </li>
         <li className="group">
           <a
-            href="#portfolio"
-            className="text-lg font-medium text-dark dark:text-white py-4 px-8 flex hover:text-white hover:bg-primary"
-          >
-            Projects
-          </a>
-        </li>
-        <li className="group">
-          <a
             href="#experience"
             className="text-lg font-medium text-dark dark:text-white py-4 px-8 flex hover:text-white hover:bg-primary rounded-b-xl"
           >
             Experiences
+          </a>
+        </li>
+        <li className="group">
+          <a
+            href="#portfolio"
+            className="text-lg font-medium text-dark dark:text-white py-4 px-8 flex hover:text-white hover:bg-primary"
+          >
+            Projects
           </a>
         </li>
       </ul>
@@ -35,4 +35,4 @@ const MobileNavigation = ({isActive}) => {
   );
 };
 
-export default MobileNavigation
+export default MobileNavigation;
