@@ -3,8 +3,10 @@ import {
   AppleIcon,
   DartIcon,
   FlutterIcon,
+  JavaScriptIcon,
   JetpackComposeIcon,
   KotlinIcon,
+  ReactIcon,
 } from ".";
 
 const IconMapper = (tag) => {
@@ -21,6 +23,10 @@ const IconMapper = (tag) => {
       return <DartIcon />;
     case "apple":
       return <AppleIcon />;
+    case "react":
+      return <ReactIcon />;
+    case "javascript":
+      return <JavaScriptIcon />;
     default:
       return <AndroidIcon />;
   }

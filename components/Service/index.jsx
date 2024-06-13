@@ -1,13 +1,17 @@
 import { useRef } from "react";
 import { useIsVisible } from "../../hooks/useVisible";
-import { AndroidIcon, AppleIcon, FlutterIcon, MobileIcon } from "../Icons";
+import { AndroidIcon, AppleIcon, ComputerIcon, FlutterIcon, MobileIcon } from "../Icons";
+import ServiceItem from "./item";
 
 const ServiceSection = () => {
   const ref = useRef();
   const isVisible = useIsVisible(ref);
 
   return (
-    <section id="service" className="pt-24 pb-16 bg-slate-100 dark:bg-slate-800">
+    <section
+      id="service"
+      className="pt-24 pb-16 bg-slate-100 dark:bg-slate-800"
+    >
       <div className="container">
         <div className="w-full px-4">
           <div
@@ -22,24 +26,23 @@ const ServiceSection = () => {
               What I Do?
             </h2>
 
-            {/* Item start here */}
-            <div className="max-w-lg">
-              <div className="flex justify-center mb-4 hover:scale-110 hover:cursor-pointer text-sky-600 dark:text-white dark:hover:text-sky-600">
-                <MobileIcon />
-              </div>
-              <h1 className="text-2xl font-bold text-sky-800 dark:text-white pb-4 pt-4">
-                Mobile App Development
-              </h1>
-              <p className="dark:text-cyan-100">
-                {
+            <div className="flex flex-wrap justify-evenly">
+              <ServiceItem
+                title={"Mobile App Development"}
+                description={
                   "I'll help you to build smooth and pixel perfect mobile app for any kind of mobile devices. Expertise in building high performance and maintainable native Android, iOS, and cross-platform apps"
                 }
-              </p>
-              <div className="flex justify-center mt-6">
-                <AndroidIcon />
-                <AppleIcon />
-                <FlutterIcon />
-              </div>
+                logo={<MobileIcon />}
+                tags={["android", "apple", "flutter"]}
+              />
+              <ServiceItem
+                title={"Web Development"}
+                description={
+                  "Build eye-catching, responsive, and fast front-end website for your business. Expertise in ReactJS and it's frameworks with JS or TS"
+                }
+                logo={<ComputerIcon />}
+                tags={["react", "javascript"]}
+              />
             </div>
           </div>
         </div>
