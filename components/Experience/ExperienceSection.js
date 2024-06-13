@@ -10,7 +10,7 @@ export default function ExperienceSection() {
   return (
     <section
       id="experience"
-      className="pt-24 pb-16 bg-slate-100 dark:bg-slate-900"
+      className="pt-24 pb-16 bg-slate-200 dark:bg-slate-900"
     >
       <div className="container">
         <div className="w-full px-4">
